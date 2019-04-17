@@ -1,6 +1,8 @@
 package main
 
-import "fmt"
+import (
+	"fmt"
+)
 
 func strStr(haystack string, needle string) int {
 	len1, len2 := len(haystack), len(needle)
@@ -10,6 +12,7 @@ func strStr(haystack string, needle string) int {
 		}
 	}
 	return -1
+
 }
 
 func main() {
