@@ -1,5 +1,5 @@
 package main
-
+// Have a RunTime Problem?
 func findMedianSortedArrays(nums1 []int, nums2 []int) float64 {
 	res := sortedArray(nums1, nums2)
 	return median(res)
