@@ -1,23 +1,26 @@
 // 2021 Jan Week 1 Challenge
-// Author: Shengwei Zhang
-
 /**
  * Definition for singly-linked list.
- */
+*/
+// 递归处理
 
-class ListNode {
-    val: number
-    next: ListNode | null
+ type ListNode struct {
+      Val int
+      Next *ListNode
+ }
 
-    constructor(val?: number, next?: ListNode | null) {
-        this.val = (val === undefined ? 0 : val)
-        this.next = (next === undefined ? null : next)
+func deleteDuplicates(head *ListNode) *ListNode {
+    if head == nil || head.Next == nil {
+        return head
     }
+
+    if head.Val == head.Next.Val {
+        for head.Next != nil && head.Val ==head.Next.Val {
+            head = head.Next
+        }
+        return deleteDuplicates(head.Next)
+    }
+
+    head.Next = deleteDuplicates(head.Next)
+    return head
 }
-
-function deleteDuplicates(head: ListNode | null): ListNode | null {
-    if (head == null) {
-        return null
-    }
-    
-};

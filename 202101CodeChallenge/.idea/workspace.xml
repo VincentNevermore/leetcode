@@ -20,12 +20,22 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="e21da731-ab54-4856-91a5-a0ab5719c76b" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/Palindrome_Permutation.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Kth_Missing_Positive_Number.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Merge_Two_Sorted_Lists.ts" beforeDir="false" afterPath="$PROJECT_DIR$/Merge_Two_Sorted_Lists.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Remove_Duplicates_From_Sorted_List.go" beforeDir="false" afterPath="$PROJECT_DIR$/Remove_Duplicates_From_Sorted_List.go" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="TypeScript File" />
+      </list>
+    </option>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
@@ -51,7 +61,8 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1609749428513</updated>
-      <workItem from="1609749429742" duration="1002000" />
+      <workItem from="1609749429742" duration="1635000" />
+      <workItem from="1609836647316" duration="4799000" />
     </task>
     <servers />
   </component>
@@ -68,5 +79,6 @@
         </entry>
       </map>
     </option>
+    <option name="oldMeFiltersMigrated" value="true" />
   </component>
 </project>
